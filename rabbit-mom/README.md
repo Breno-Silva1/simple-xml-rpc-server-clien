@@ -1,6 +1,6 @@
 # rabbit-mom
 
-#### Para executar o servidor do *rabbitmq* você pracisará instala-lo primeiramente, [link aqui] (https://www.rabbitmq.com/install-debian.html#downloads).
+#### Para executar o servidor do *rabbitmq* você pracisará instala-lo primeiramente, [link aqui](https://www.rabbitmq.com/install-debian.html#downloads).
 
 #### E da biblioteca do *Pika*.
 
