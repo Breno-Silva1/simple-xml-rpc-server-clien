@@ -1,30 +1,37 @@
 # rabbit-mom
 
-Para executar o servidor do *rabbitmq* você pracisará instala-lo primeiramente, [link aqui] (https://www.rabbitmq.com/install-debian.html#downloads) .
+### Para executar o servidor do *rabbitmq* você pracisará instala-lo primeiramente, [link aqui] (https://www.rabbitmq.com/install-debian.html#downloads).
 
-E da biblioteca do *Pika*.
+### E da biblioteca do *Pika*.
 
 ```sh
 pip install pika
 ```
-ou 
-
-```sh
-easy_install pika
-```
-Para executar o servidor, caso necessário.
+#### ou 
 
 ```sh
 easy_install pika
 ```
 
-Para verificar as filas e a quantidade de mensagens que estão salvas.
+### Caso não tenha instalado o *pip*.
+
+```sh
+sudo apt install python-pip
+```
+
+### Para executar o servidor, caso necessário.
+
+```sh
+sudo rabbitmq-server start
+```
+
+### Para verificar as filas e a quantidade de mensagens que estão salvas.
 
 ```sh
 sudo rabbitmqctl list_queues
 ```
 
-E executar os códigos *Python*.
+##### E executar os códigos *Python*.
 
 #### send.py
 ```python
